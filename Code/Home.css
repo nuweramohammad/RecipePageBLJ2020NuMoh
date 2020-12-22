@@ -2,6 +2,36 @@
 .navbar-dark {
   background-color: #ff0000;
 }
+header img {
+  height: 45px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+header a:hover {
+  background-color: #669b41;
+  color: black;
+}
+header a:active {
+  background-color: green;
+}
+.logo2 {
+  align-content: flex-end;
+  margin-left: 1225px;
+  width: 50px;
+}
+.logo3 {
+  align-content: flex-end;
+  margin-left: 1225px;
+  width: 50px;
+}
+body {
+  background-color: #32620e;
+}
+
 /* footer */
 footer {
   position: fixed;
@@ -10,7 +40,7 @@ footer {
 }
 .footer {
   width: 100%;
-  background-color: #669b41;
+  background-color: #598639;
   color: #ffffff;
   height: 85px;
   position: sticky;

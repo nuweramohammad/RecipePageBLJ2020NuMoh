@@ -23,9 +23,15 @@ header a:active {
   margin-left: 1225px;
   width: 50px;
 }
+.logo3 {
+  align-content: flex-end;
+  margin-left: 1225px;
+  width: 50px;
+}
 body {
   background-color: #32620e;
 }
+
 /* footer */
 footer {
   position: fixed;

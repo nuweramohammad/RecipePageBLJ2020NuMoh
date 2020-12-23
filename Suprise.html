@@ -15,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Suprise.css">
 
     <title>Homepage</title>
 </head>
@@ -55,6 +55,10 @@
             </div>
         </nav>
     </header>
+    <header>
+        <label id="dark-change"></label>
+    </header>
+    <h1>SMILE!</h1>
     <footer>
         <div class="footer">
             <img src="https://i.pinimg.com/originals/66/a9/54/66a954041adcd36ea3d7ca0a6a3b4ddd.png" alt="Logo"
@@ -68,6 +72,14 @@
             <a href="Impressum.html">Impressum</a>
         </div>
     </footer>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function () {
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
 </body>
 
 </html>

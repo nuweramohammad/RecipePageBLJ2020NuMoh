@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -55,10 +57,54 @@
             </div>
         </nav>
     </header>
+    <span class="merry">
+        <button onclick="myFunction()">Merry Baking!</button>
+        <script>
+            function myFunction() {
+                alert("and a HAPPY NEW YEAR!");
+            }
+        </script>
+    </span>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="ingredients">
+                    <div class="ingredientsBox">
+                        <h2>Ingredients</h2>
+                    </div>
+                    <hr />
+                    <ol>
+                        <br>
+                        <li>175g cold unsalted butter, cubed</li>
+                        <li>250g plain flour, plus extra for dusting</li>
+                        <li>100g golden icing sugar</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>1 egg yolk</li>
+                        <li>120g seedless raspberry or strawberry jam</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-5">
+                <div class="Result">
+                    <div class="container">
+                        <img src="Step_10.png" alt="End Result">
+                        <div class="content">
+                            <h1>End Result</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="footer">
             <img src="https://i.pinimg.com/originals/66/a9/54/66a954041adcd36ea3d7ca0a6a3b4ddd.png" alt="Logo"
                 width="80" height="80">
+            <button class="download">
+                <a href="Download.pdf" download="Recipe.pdf"> Download Recipe</a>
+            </button>
             <a class="logo3">
                 <img src="https://i.pinimg.com/originals/c5/b0/67/c5b06757cbead44f89ce4567fa07a1b3.png" alt="Logo"
                     width="70" height="80">
@@ -68,6 +114,15 @@
             <a href="Impressum.html">Impressum</a>
         </div>
     </footer>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function () {
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        }
+        )
+    </script>
 </body>
 
 </html>

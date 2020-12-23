@@ -1,6 +1,7 @@
 /* navbar */
 .navbar-dark {
   background-color: #ff0000;
+  opacity: 70%;
 }
 header img {
   height: 45px;
@@ -27,9 +28,15 @@ header a:active {
   margin-left: 1350px;
   width: 50px;
 }
-
 body {
   background-color: #32620e;
+}
+.carousel-inner {
+  height: 500px;
+  width: 100%;
+}
+.container {
+  margin-top: 80px;
 }
 
 /* footer */
@@ -51,6 +58,7 @@ footer {
   color: #ffffff;
   text-align: center;
   font-family: "Oswald", sans-serif;
+  position: sticky;
 }
 .footer2 > a:hover {
   color: #ffffff !important;

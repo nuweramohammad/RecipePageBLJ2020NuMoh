@@ -32,8 +32,19 @@ body {
   background-color: #32620e;
 }
 .carousel-inner {
-  height: 500px;
+  height: 100%;
   width: 100%;
+  margin-bottom: 350px;
+  border-radius: 82px;
+  border-color: #ff0000;
+}
+.carousel-caption > h3 {
+  color: #ff0000;
+  background-color: #32620e;
+}
+.carousel-caption > p {
+  color: #32620e;
+  background-color: #ff0000;
 }
 .container {
   margin-top: 80px;

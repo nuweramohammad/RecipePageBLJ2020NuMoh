@@ -63,7 +63,7 @@ body {
   color: #000000;
   font-size: 40px;
   margin-top: 70px;
-  margin-left: 0%;
+  margin-left: 3%;
   position: absolute;
   top: 10%;
   z-index: 20;
@@ -169,34 +169,4 @@ div {
     left: 0;
     text-align: center;
   }
-}  
-label {
-  position: absolute;
-  width: 45px;
-  height: 22px;
-  right: 140px;
-  top: 20px;
-  border: 2px solid;
-  border-radius: 20px;
 }
-label:before {
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  left: 1px;
-  top: 1px;
-  border-radius: 50%;
-  cursor: pointer;
-  background: rgb(0, 0, 0);
-  transition: 0.4s;
-}
-label.active::before {
-  left: 24px;
-  background: #ffffff;
-}
-body.night {
-  background: #000000;
-  color: #ffffff;
-}​​​​​​​​
-

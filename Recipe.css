@@ -49,6 +49,27 @@ body {
 .container {
   margin-top: 80px;
 }
+.merry {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-left: 7%;
+  position: absolute;
+  top: 10%;
+  z-index: 20;
+  height: fit-content;
+  left: 50%;
+  transform: translateX(-86%);
+  font-family: "Pacifico", cursive;
+}
+.merry > button {
+  background-color: #32620e;
+  color: #ff1616;
+  border-radius: 12%;
+  border: 2px solid #ff1616;
+  align-self: center;
+}
 
 /* footer */
 footer {
